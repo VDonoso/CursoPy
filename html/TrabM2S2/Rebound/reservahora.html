@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario reserva de hora</title>
+</head>
+<body>
+    <form action="gracias.html" method="post">
+        <h1><b>FORMULARIO</b></h1>
+        <label for="Nombre">NOMBRE</label><br>
+        <input type="text" name="nombre" id="Nombre"><BR><br>
+        <label for="Direccion">DIRECCION</label><br>
+        <input type="text" name="Direccion" id="Dirección"><br><br>
+        <label for="Especialidad">ESPECIALIDAD MEDICA</label><br>
+        <select name="Especialidad medica" id="especialidad medica">
+            <option value="Medicina interna">MEDICINA INTERNA</option>
+            <option value="Medicina general">MEDICINA GENERAL</option>
+            <option value="Ginecobstetricia">GINECOBSTETRICIA</option>
+            <option value="Traumatología">TRAUMATOLOGIA</option>
+            <option value="Nutricionista">NUTRICIONISTA</option>
+        </select><br><br>
+        <label for="Hora">HORA</label><br>
+        <input type="time" name="Hora" id="Hora"><br><br>
+        <label for="Fecha">FECHA</label><br>
+        <input type="date" name="Fecha" id="Fecha"><br><br>
+        <label for="Correo">CORREO</label><BR>
+        <input type="email" name="Correo" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required>
+
+        <br><br>
+        <input type="submit" value="RESERVA">
+    
+
+    </form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+        <form action="redireccion.html" method="post">
+            <div>
+            <label for="name">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="direction">Direccion</label>
+            <input type="text" name="direccion" id="direccion">
+        </div>
+        <label for="colores">Color Favorito</label>
+        <input type="text" name="lista" id="colores">
+        <datalist id="colores">
+            <option label= "rojo" value="Rojo"></option>
+            <option value="Azul"></option>
+            <option value="Amarillo">Amarillo</option>
+        </datalist><br>
+        <label for="animales">Animales favoritos</label>
+        <select name="animales" id="animales">
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+            <option value="Pez">Pez</option>
+        </select>
+        
+        <label for="">Verde</label>
+        <input type="checkbox" value="verde" id="color">
+        <label for="">Amarillo</label>
+        <input type="checkbox" value="amarillo" id="color">
+        <label for="">Rojo</label>
+        <input type="checkbox" value="rojo" id="color">
+        
+        <input type="color"><br>
+        <label for="">seleccione fecha y hora</label>
+        <input type="date" name="fecha" id="fecha">
+        <input type="datetime" name="fecha y hora" id="fecha y hora"><br>
+        <label for="">email</label>
+        <input type="email" name="email" id="email"><br>
+        <label for="">contraseña</label>
+        <input type="password" name="contraseña" id="contraseña"><br>
+        <label for="Consulta">Envie sus dudas</label>
+        <input type="submit" value="enviar consulta"><br>
+        <label for="Colores">escoja el color que más lo representa</label>
+        <input type="radio" value="Verde" name="color">
+        <input type="radio" value="Amarillo" name="color">
+        <input type="radio" value="Rojo" name="color"><br>
+        <label for="Edad">Edad</label>
+        <input type="range" min="1" max="80">
+
+        <button>Enviar</button>
+        </form>
+
+</body>
+</html>

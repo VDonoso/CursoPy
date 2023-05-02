@@ -1,0 +1,53 @@
+header{
+    background: url(fondo.jpg);
+    background-size: contain;
+    background-repeat:repeat;
+    background-attachment: scroll;
+
+}
+#n.png{
+    margin-top: 0%;
+}
+h1{
+    color: grey; 
+    text-align: center;
+}
+h4{
+    color: black;
+    text-align: center;
+}
+
+.div-imagen-fondo {
+    background-image: url(fondo.jpg);
+  width: 130px; height: 50px;
+  }
+.div-Menu{
+    text-align: center;
+}
+.div-barra{
+    color: white; 
+    text-align: center;
+}
+.beb-tab-shop{
+    display: inline-block;
+}
+#bebidas{
+    float: inline-start;
+    text-align: start;
+}
+#tablas{
+    float: none;
+    text-align: center;
+}
+#shop{
+    float: inline-end;
+    text-align: end;
+} 
+
+  footer{
+    background: url(fondo.jpg); color: white;
+    background-size: cover; width: 100%; height: 180px;
+    background-repeat: no-repeat;
+    text-align: center; position: relative;
+    padding: 150px;
+  }
